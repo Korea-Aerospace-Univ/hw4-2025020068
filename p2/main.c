@@ -13,9 +13,9 @@ int main(void)
     bool in_digit = false;
 
     scanf("%d", &N);
-
+    ch=getchar();
     for (int i = 0; i < N; i++) {
-        scanf(" %c", &ch);
+        scanf("%c", &ch);
 
         if (ch >= 'a' && ch <= 'z') {
             if (in_lower) {
